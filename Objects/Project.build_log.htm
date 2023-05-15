@@ -1,0 +1,1198 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: omar omar_, omar, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  D:\Keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\College\Senior 1 Term 2\CSE411 Real-time and Embedded Systems Design\Project_old\Project\Project\Project\Project.uvprojx
+Project File Date:  05/15/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'D:\Keil\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling freertos_evr.c...
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(352): warning: 'INT_ADC0SS0' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS0             INT_CONCAT(INT_ADC0SS0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(62): note: previous definition is here
+#define INT_ADC0SS0             30          // ADC0 Sequence 0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(353): warning: 'INT_ADC0SS1' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS1             INT_CONCAT(INT_ADC0SS1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(63): note: previous definition is here
+#define INT_ADC0SS1             31          // ADC0 Sequence 1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(354): warning: 'INT_ADC0SS2' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS2             INT_CONCAT(INT_ADC0SS2_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(64): note: previous definition is here
+#define INT_ADC0SS2             32          // ADC0 Sequence 2
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(355): warning: 'INT_ADC0SS3' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS3             INT_CONCAT(INT_ADC0SS3_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(65): note: previous definition is here
+#define INT_ADC0SS3             33          // ADC0 Sequence 3
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(356): warning: 'INT_ADC1SS0' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS0             INT_CONCAT(INT_ADC1SS0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(92): note: previous definition is here
+#define INT_ADC1SS0             64          // ADC1 Sequence 0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(357): warning: 'INT_ADC1SS1' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS1             INT_CONCAT(INT_ADC1SS1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(93): note: previous definition is here
+#define INT_ADC1SS1             65          // ADC1 Sequence 1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(358): warning: 'INT_ADC1SS2' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS2             INT_CONCAT(INT_ADC1SS2_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(94): note: previous definition is here
+#define INT_ADC1SS2             66          // ADC1 Sequence 2
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(359): warning: 'INT_ADC1SS3' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS3             INT_CONCAT(INT_ADC1SS3_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(95): note: previous definition is here
+#define INT_ADC1SS3             67          // ADC1 Sequence 3
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(361): warning: 'INT_CAN0' macro redefined [-Wmacro-redefined]
+#define INT_CAN0                INT_CONCAT(INT_CAN0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(85): note: previous definition is here
+#define INT_CAN0                55          // CAN0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(362): warning: 'INT_CAN1' macro redefined [-Wmacro-redefined]
+#define INT_CAN1                INT_CONCAT(INT_CAN1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(86): note: previous definition is here
+#define INT_CAN1                56          // CAN1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(363): warning: 'INT_COMP0' macro redefined [-Wmacro-redefined]
+#define INT_COMP0               INT_CONCAT(INT_COMP0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(73): note: previous definition is here
+#define INT_COMP0               41          // Analog Comparator 0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(364): warning: 'INT_COMP1' macro redefined [-Wmacro-redefined]
+#define INT_COMP1               INT_CONCAT(INT_COMP1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(74): note: previous definition is here
+#define INT_COMP1               42          // Analog Comparator 1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(369): warning: 'INT_FLASH' macro redefined [-Wmacro-redefined]
+#define INT_FLASH               INT_CONCAT(INT_FLASH_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(76): note: previous definition is here
+#define INT_FLASH               45          // Flash Memory Control and EEPROM
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(370): warning: 'INT_GPIOA' macro redefined [-Wmacro-redefined]
+#define INT_GPIOA               INT_CONCAT(INT_GPIOA_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(48): note: previous definition is here
+#define INT_GPIOA               16          // GPIO Port A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(371): warning: 'INT_GPIOB' macro redefined [-Wmacro-redefined]
+#define INT_GPIOB               INT_CONCAT(INT_GPIOB_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(49): note: previous definition is here
+#define INT_GPIOB               17          // GPIO Port B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(372): warning: 'INT_GPIOC' macro redefined [-Wmacro-redefined]
+#define INT_GPIOC               INT_CONCAT(INT_GPIOC_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(50): note: previous definition is here
+#define INT_GPIOC               18          // GPIO Port C
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(373): warning: 'INT_GPIOD' macro redefined [-Wmacro-redefined]
+#define INT_GPIOD               INT_CONCAT(INT_GPIOD_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(51): note: previous definition is here
+#define INT_GPIOD               19          // GPIO Port D
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(374): warning: 'INT_GPIOE' macro redefined [-Wmacro-redefined]
+#define INT_GPIOE               INT_CONCAT(INT_GPIOE_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(52): note: previous definition is here
+#define INT_GPIOE               20          // GPIO Port E
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(375): warning: 'INT_GPIOF' macro redefined [-Wmacro-redefined]
+#define INT_GPIOF               INT_CONCAT(INT_GPIOF_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(78): note: previous definition is here
+#define INT_GPIOF               46          // GPIO Port F
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(402): warning: 'INT_HIBERNATE' macro redefined [-Wmacro-redefined]
+#define INT_HIBERNATE           INT_CONCAT(INT_HIBERNATE_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(87): note: previous definition is here
+#define INT_HIBERNATE           59          // Hibernation Module
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(403): warning: 'INT_I2C0' macro redefined [-Wmacro-redefined]
+#define INT_I2C0                INT_CONCAT(INT_I2C0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(56): note: previous definition is here
+#define INT_I2C0                24          // I2C0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(404): warning: 'INT_I2C1' macro redefined [-Wmacro-redefined]
+#define INT_I2C1                INT_CONCAT(INT_I2C1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(83): note: previous definition is here
+#define INT_I2C1                53          // I2C1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(405): warning: 'INT_I2C2' macro redefined [-Wmacro-redefined]
+#define INT_I2C2                INT_CONCAT(INT_I2C2_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(103): note: previous definition is here
+#define INT_I2C2                84          // I2C2
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(406): warning: 'INT_I2C3' macro redefined [-Wmacro-redefined]
+#define INT_I2C3                INT_CONCAT(INT_I2C3_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(104): note: previous definition is here
+#define INT_I2C3                85          // I2C3
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(415): warning: 'INT_PWM0_0' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_0              INT_CONCAT(INT_PWM0_0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(58): note: previous definition is here
+#define INT_PWM0_0              26          // PWM0 Generator 0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(416): warning: 'INT_PWM0_1' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_1              INT_CONCAT(INT_PWM0_1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(59): note: previous definition is here
+#define INT_PWM0_1              27          // PWM0 Generator 1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(417): warning: 'INT_PWM0_2' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_2              INT_CONCAT(INT_PWM0_2_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(60): note: previous definition is here
+#define INT_PWM0_2              28          // PWM0 Generator 2
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(418): warning: 'INT_PWM0_3' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_3              INT_CONCAT(INT_PWM0_3_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(89): note: previous definition is here
+#define INT_PWM0_3              61          // PWM Generator 3
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(419): warning: 'INT_PWM0_FAULT' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_FAULT          INT_CONCAT(INT_PWM0_FAULT_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(57): note: previous definition is here
+#define INT_PWM0_FAULT          25          // PWM0 Fault
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(420): warning: 'INT_PWM1_0' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_0              INT_CONCAT(INT_PWM1_0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(122): note: previous definition is here
+#define INT_PWM1_0              150         // PWM1 Generator 0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(421): warning: 'INT_PWM1_1' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_1              INT_CONCAT(INT_PWM1_1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(123): note: previous definition is here
+#define INT_PWM1_1              151         // PWM1 Generator 1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(422): warning: 'INT_PWM1_2' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_2              INT_CONCAT(INT_PWM1_2_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(124): note: previous definition is here
+#define INT_PWM1_2              152         // PWM1 Generator 2
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(423): warning: 'INT_PWM1_3' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_3              INT_CONCAT(INT_PWM1_3_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(125): note: previous definition is here
+#define INT_PWM1_3              153         // PWM1 Generator 3
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(424): warning: 'INT_PWM1_FAULT' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_FAULT          INT_CONCAT(INT_PWM1_FAULT_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(126): note: previous definition is here
+#define INT_PWM1_FAULT          154         // PWM1 Fault
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(425): warning: 'INT_QEI0' macro redefined [-Wmacro-redefined]
+#define INT_QEI0                INT_CONCAT(INT_QEI0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(61): note: previous definition is here
+#define INT_QEI0                29          // QEI0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(426): warning: 'INT_QEI1' macro redefined [-Wmacro-redefined]
+#define INT_QEI1                INT_CONCAT(INT_QEI1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(84): note: previous definition is here
+#define INT_QEI1                54          // QEI1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(428): warning: 'INT_SSI0' macro redefined [-Wmacro-redefined]
+#define INT_SSI0                INT_CONCAT(INT_SSI0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(55): note: previous definition is here
+#define INT_SSI0                23          // SSI0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(429): warning: 'INT_SSI1' macro redefined [-Wmacro-redefined]
+#define INT_SSI1                INT_CONCAT(INT_SSI1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(80): note: previous definition is here
+#define INT_SSI1                50          // SSI1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(430): warning: 'INT_SSI2' macro redefined [-Wmacro-redefined]
+#define INT_SSI2                INT_CONCAT(INT_SSI2_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(96): note: previous definition is here
+#define INT_SSI2                73          // SSI2
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(431): warning: 'INT_SSI3' macro redefined [-Wmacro-redefined]
+#define INT_SSI3                INT_CONCAT(INT_SSI3_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(97): note: previous definition is here
+#define INT_SSI3                74          // SSI3
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(432): warning: 'INT_SYSCTL' macro redefined [-Wmacro-redefined]
+#define INT_SYSCTL              INT_CONCAT(INT_SYSCTL_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(75): note: previous definition is here
+#define INT_SYSCTL              44          // System Control
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(433): warning: 'INT_SYSEXC' macro redefined [-Wmacro-redefined]
+#define INT_SYSEXC              INT_CONCAT(INT_SYSEXC_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(121): note: previous definition is here
+#define INT_SYSEXC              122         // System Exception (imprecise)
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(435): warning: 'INT_TIMER0A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER0A             INT_CONCAT(INT_TIMER0A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(67): note: previous definition is here
+#define INT_TIMER0A             35          // 16/32-Bit Timer 0A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(436): warning: 'INT_TIMER0B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER0B             INT_CONCAT(INT_TIMER0B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(68): note: previous definition is here
+#define INT_TIMER0B             36          // 16/32-Bit Timer 0B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(437): warning: 'INT_TIMER1A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER1A             INT_CONCAT(INT_TIMER1A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(69): note: previous definition is here
+#define INT_TIMER1A             37          // 16/32-Bit Timer 1A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(438): warning: 'INT_TIMER1B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER1B             INT_CONCAT(INT_TIMER1B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(70): note: previous definition is here
+#define INT_TIMER1B             38          // 16/32-Bit Timer 1B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(439): warning: 'INT_TIMER2A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER2A             INT_CONCAT(INT_TIMER2A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(71): note: previous definition is here
+#define INT_TIMER2A             39          // 16/32-Bit Timer 2A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(440): warning: 'INT_TIMER2B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER2B             INT_CONCAT(INT_TIMER2B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(72): note: previous definition is here
+#define INT_TIMER2B             40          // 16/32-Bit Timer 2B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(441): warning: 'INT_TIMER3A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER3A             INT_CONCAT(INT_TIMER3A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(81): note: previous definition is here
+#define INT_TIMER3A             51          // 16/32-Bit Timer 3A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(442): warning: 'INT_TIMER3B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER3B             INT_CONCAT(INT_TIMER3B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(82): note: previous definition is here
+#define INT_TIMER3B             52          // Timer 3B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(443): warning: 'INT_TIMER4A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER4A             INT_CONCAT(INT_TIMER4A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(105): note: previous definition is here
+#define INT_TIMER4A             86          // 16/32-Bit Timer 4A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(444): warning: 'INT_TIMER4B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER4B             INT_CONCAT(INT_TIMER4B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(106): note: previous definition is here
+#define INT_TIMER4B             87          // 16/32-Bit Timer 4B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(445): warning: 'INT_TIMER5A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER5A             INT_CONCAT(INT_TIMER5A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(107): note: previous definition is here
+#define INT_TIMER5A             108         // 16/32-Bit Timer 5A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(446): warning: 'INT_TIMER5B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER5B             INT_CONCAT(INT_TIMER5B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(108): note: previous definition is here
+#define INT_TIMER5B             109         // 16/32-Bit Timer 5B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(451): warning: 'INT_UART0' macro redefined [-Wmacro-redefined]
+#define INT_UART0               INT_CONCAT(INT_UART0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(53): note: previous definition is here
+#define INT_UART0               21          // UART0
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(452): warning: 'INT_UART1' macro redefined [-Wmacro-redefined]
+#define INT_UART1               INT_CONCAT(INT_UART1_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(54): note: previous definition is here
+#define INT_UART1               22          // UART1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(453): warning: 'INT_UART2' macro redefined [-Wmacro-redefined]
+#define INT_UART2               INT_CONCAT(INT_UART2_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(79): note: previous definition is here
+#define INT_UART2               49          // UART2
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(454): warning: 'INT_UART3' macro redefined [-Wmacro-redefined]
+#define INT_UART3               INT_CONCAT(INT_UART3_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(98): note: previous definition is here
+#define INT_UART3               75          // UART3
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(455): warning: 'INT_UART4' macro redefined [-Wmacro-redefined]
+#define INT_UART4               INT_CONCAT(INT_UART4_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(99): note: previous definition is here
+#define INT_UART4               76          // UART4
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(456): warning: 'INT_UART5' macro redefined [-Wmacro-redefined]
+#define INT_UART5               INT_CONCAT(INT_UART5_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(100): note: previous definition is here
+#define INT_UART5               77          // UART5
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(457): warning: 'INT_UART6' macro redefined [-Wmacro-redefined]
+#define INT_UART6               INT_CONCAT(INT_UART6_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(101): note: previous definition is here
+#define INT_UART6               78          // UART6
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(458): warning: 'INT_UART7' macro redefined [-Wmacro-redefined]
+#define INT_UART7               INT_CONCAT(INT_UART7_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(102): note: previous definition is here
+#define INT_UART7               79          // UART7
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(459): warning: 'INT_UDMA' macro redefined [-Wmacro-redefined]
+#define INT_UDMA                INT_CONCAT(INT_UDMA_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(90): note: previous definition is here
+#define INT_UDMA                62          // uDMA Software
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(460): warning: 'INT_UDMAERR' macro redefined [-Wmacro-redefined]
+#define INT_UDMAERR             INT_CONCAT(INT_UDMAERR_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(91): note: previous definition is here
+#define INT_UDMAERR             63          // uDMA Error
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(461): warning: 'INT_USB0' macro redefined [-Wmacro-redefined]
+#define INT_USB0                INT_CONCAT(INT_USB0_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(88): note: previous definition is here
+#define INT_USB0                60          // USB
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(462): warning: 'INT_WATCHDOG' macro redefined [-Wmacro-redefined]
+#define INT_WATCHDOG            INT_CONCAT(INT_WATCHDOG_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(66): note: previous definition is here
+#define INT_WATCHDOG            34          // Watchdog Timers 0 and 1
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(463): warning: 'INT_WTIMER0A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER0A            INT_CONCAT(INT_WTIMER0A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(109): note: previous definition is here
+#define INT_WTIMER0A            110         // 32/64-Bit Timer 0A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(464): warning: 'INT_WTIMER0B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER0B            INT_CONCAT(INT_WTIMER0B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(110): note: previous definition is here
+#define INT_WTIMER0B            111         // 32/64-Bit Timer 0B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(465): warning: 'INT_WTIMER1A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER1A            INT_CONCAT(INT_WTIMER1A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(111): note: previous definition is here
+#define INT_WTIMER1A            112         // 32/64-Bit Timer 1A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(466): warning: 'INT_WTIMER1B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER1B            INT_CONCAT(INT_WTIMER1B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(112): note: previous definition is here
+#define INT_WTIMER1B            113         // 32/64-Bit Timer 1B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(467): warning: 'INT_WTIMER2A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER2A            INT_CONCAT(INT_WTIMER2A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(113): note: previous definition is here
+#define INT_WTIMER2A            114         // 32/64-Bit Timer 2A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(468): warning: 'INT_WTIMER2B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER2B            INT_CONCAT(INT_WTIMER2B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(114): note: previous definition is here
+#define INT_WTIMER2B            115         // 32/64-Bit Timer 2B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(469): warning: 'INT_WTIMER3A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER3A            INT_CONCAT(INT_WTIMER3A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(115): note: previous definition is here
+#define INT_WTIMER3A            116         // 32/64-Bit Timer 3A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(470): warning: 'INT_WTIMER3B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER3B            INT_CONCAT(INT_WTIMER3B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(116): note: previous definition is here
+#define INT_WTIMER3B            117         // 32/64-Bit Timer 3B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(471): warning: 'INT_WTIMER4A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER4A            INT_CONCAT(INT_WTIMER4A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(117): note: previous definition is here
+#define INT_WTIMER4A            118         // 32/64-Bit Timer 4A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(472): warning: 'INT_WTIMER4B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER4B            INT_CONCAT(INT_WTIMER4B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(118): note: previous definition is here
+#define INT_WTIMER4B            119         // 32/64-Bit Timer 4B
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(473): warning: 'INT_WTIMER5A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER5A            INT_CONCAT(INT_WTIMER5A_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(119): note: previous definition is here
+#define INT_WTIMER5A            120         // 32/64-Bit Timer 5A
+        ^
+ports_init.c(13): warning: In file included from...
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(474): warning: 'INT_WTIMER5B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER5B            INT_CONCAT(INT_WTIMER5B_, INT_DEVICE_CLASS)
+        ^
+./tm4c123gh6pm.h(120): note: previous definition is here
+#define INT_WTIMER5B            121         // 32/64-Bit Timer 5B
+        ^
+78 warnings generated.
+compiling ports_init.c...
+compiling DIO.c...
+compiling list.c...
+assembling startup_TM4C123.s...
+compiling system_TM4C123.c...
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(48): warning: 'INT_GPIOA' macro redefined [-Wmacro-redefined]
+#define INT_GPIOA               16          // GPIO Port A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(370): note: previous definition is here
+#define INT_GPIOA               INT_CONCAT(INT_GPIOA_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(49): warning: 'INT_GPIOB' macro redefined [-Wmacro-redefined]
+#define INT_GPIOB               17          // GPIO Port B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(371): note: previous definition is here
+#define INT_GPIOB               INT_CONCAT(INT_GPIOB_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(50): warning: 'INT_GPIOC' macro redefined [-Wmacro-redefined]
+#define INT_GPIOC               18          // GPIO Port C
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(372): note: previous definition is here
+#define INT_GPIOC               INT_CONCAT(INT_GPIOC_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(51): warning: 'INT_GPIOD' macro redefined [-Wmacro-redefined]
+#define INT_GPIOD               19          // GPIO Port D
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(373): note: previous definition is here
+#define INT_GPIOD               INT_CONCAT(INT_GPIOD_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(52): warning: 'INT_GPIOE' macro redefined [-Wmacro-redefined]
+#define INT_GPIOE               20          // GPIO Port E
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(374): note: previous definition is here
+#define INT_GPIOE               INT_CONCAT(INT_GPIOE_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(53): warning: 'INT_UART0' macro redefined [-Wmacro-redefined]
+#define INT_UART0               21          // UART0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(451): note: previous definition is here
+#define INT_UART0               INT_CONCAT(INT_UART0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(54): warning: 'INT_UART1' macro redefined [-Wmacro-redefined]
+#define INT_UART1               22          // UART1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(452): note: previous definition is here
+#define INT_UART1               INT_CONCAT(INT_UART1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(55): warning: 'INT_SSI0' macro redefined [-Wmacro-redefined]
+#define INT_SSI0                23          // SSI0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(428): note: previous definition is here
+#define INT_SSI0                INT_CONCAT(INT_SSI0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(56): warning: 'INT_I2C0' macro redefined [-Wmacro-redefined]
+#define INT_I2C0                24          // I2C0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(403): note: previous definition is here
+#define INT_I2C0                INT_CONCAT(INT_I2C0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(57): warning: 'INT_PWM0_FAULT' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_FAULT          25          // PWM0 Fault
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(419): note: previous definition is here
+#define INT_PWM0_FAULT          INT_CONCAT(INT_PWM0_FAULT_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(58): warning: 'INT_PWM0_0' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_0              26          // PWM0 Generator 0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(415): note: previous definition is here
+#define INT_PWM0_0              INT_CONCAT(INT_PWM0_0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(59): warning: 'INT_PWM0_1' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_1              27          // PWM0 Generator 1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(416): note: previous definition is here
+#define INT_PWM0_1              INT_CONCAT(INT_PWM0_1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(60): warning: 'INT_PWM0_2' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_2              28          // PWM0 Generator 2
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(417): note: previous definition is here
+#define INT_PWM0_2              INT_CONCAT(INT_PWM0_2_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(61): warning: 'INT_QEI0' macro redefined [-Wmacro-redefined]
+#define INT_QEI0                29          // QEI0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(425): note: previous definition is here
+#define INT_QEI0                INT_CONCAT(INT_QEI0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(62): warning: 'INT_ADC0SS0' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS0             30          // ADC0 Sequence 0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(352): note: previous definition is here
+#define INT_ADC0SS0             INT_CONCAT(INT_ADC0SS0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(63): warning: 'INT_ADC0SS1' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS1             31          // ADC0 Sequence 1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(353): note: previous definition is here
+#define INT_ADC0SS1             INT_CONCAT(INT_ADC0SS1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(64): warning: 'INT_ADC0SS2' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS2             32          // ADC0 Sequence 2
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(354): note: previous definition is here
+#define INT_ADC0SS2             INT_CONCAT(INT_ADC0SS2_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(65): warning: 'INT_ADC0SS3' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS3             33          // ADC0 Sequence 3
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(355): note: previous definition is here
+#define INT_ADC0SS3             INT_CONCAT(INT_ADC0SS3_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(66): warning: 'INT_WATCHDOG' macro redefined [-Wmacro-redefined]
+#define INT_WATCHDOG            34          // Watchdog Timers 0 and 1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(462): note: previous definition is here
+#define INT_WATCHDOG            INT_CONCAT(INT_WATCHDOG_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(67): warning: 'INT_TIMER0A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER0A             35          // 16/32-Bit Timer 0A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(435): note: previous definition is here
+#define INT_TIMER0A             INT_CONCAT(INT_TIMER0A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(68): warning: 'INT_TIMER0B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER0B             36          // 16/32-Bit Timer 0B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(436): note: previous definition is here
+#define INT_TIMER0B             INT_CONCAT(INT_TIMER0B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(69): warning: 'INT_TIMER1A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER1A             37          // 16/32-Bit Timer 1A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(437): note: previous definition is here
+#define INT_TIMER1A             INT_CONCAT(INT_TIMER1A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(70): warning: 'INT_TIMER1B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER1B             38          // 16/32-Bit Timer 1B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(438): note: previous definition is here
+#define INT_TIMER1B             INT_CONCAT(INT_TIMER1B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(71): warning: 'INT_TIMER2A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER2A             39          // 16/32-Bit Timer 2A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(439): note: previous definition is here
+#define INT_TIMER2A             INT_CONCAT(INT_TIMER2A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(72): warning: 'INT_TIMER2B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER2B             40          // 16/32-Bit Timer 2B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(440): note: previous definition is here
+#define INT_TIMER2B             INT_CONCAT(INT_TIMER2B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(73): warning: 'INT_COMP0' macro redefined [-Wmacro-redefined]
+#define INT_COMP0               41          // Analog Comparator 0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(363): note: previous definition is here
+#define INT_COMP0               INT_CONCAT(INT_COMP0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(74): warning: 'INT_COMP1' macro redefined [-Wmacro-redefined]
+#define INT_COMP1               42          // Analog Comparator 1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(364): note: previous definition is here
+#define INT_COMP1               INT_CONCAT(INT_COMP1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(75): warning: 'INT_SYSCTL' macro redefined [-Wmacro-redefined]
+#define INT_SYSCTL              44          // System Control
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(432): note: previous definition is here
+#define INT_SYSCTL              INT_CONCAT(INT_SYSCTL_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(76): warning: 'INT_FLASH' macro redefined [-Wmacro-redefined]
+#define INT_FLASH               45          // Flash Memory Control and EEPROM
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(369): note: previous definition is here
+#define INT_FLASH               INT_CONCAT(INT_FLASH_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(78): warning: 'INT_GPIOF' macro redefined [-Wmacro-redefined]
+#define INT_GPIOF               46          // GPIO Port F
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(375): note: previous definition is here
+#define INT_GPIOF               INT_CONCAT(INT_GPIOF_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(79): warning: 'INT_UART2' macro redefined [-Wmacro-redefined]
+#define INT_UART2               49          // UART2
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(453): note: previous definition is here
+#define INT_UART2               INT_CONCAT(INT_UART2_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(80): warning: 'INT_SSI1' macro redefined [-Wmacro-redefined]
+#define INT_SSI1                50          // SSI1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(429): note: previous definition is here
+#define INT_SSI1                INT_CONCAT(INT_SSI1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(81): warning: 'INT_TIMER3A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER3A             51          // 16/32-Bit Timer 3A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(441): note: previous definition is here
+#define INT_TIMER3A             INT_CONCAT(INT_TIMER3A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(82): warning: 'INT_TIMER3B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER3B             52          // Timer 3B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(442): note: previous definition is here
+#define INT_TIMER3B             INT_CONCAT(INT_TIMER3B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(83): warning: 'INT_I2C1' macro redefined [-Wmacro-redefined]
+#define INT_I2C1                53          // I2C1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(404): note: previous definition is here
+#define INT_I2C1                INT_CONCAT(INT_I2C1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(84): warning: 'INT_QEI1' macro redefined [-Wmacro-redefined]
+#define INT_QEI1                54          // QEI1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(426): note: previous definition is here
+#define INT_QEI1                INT_CONCAT(INT_QEI1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(85): warning: 'INT_CAN0' macro redefined [-Wmacro-redefined]
+#define INT_CAN0                55          // CAN0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(361): note: previous definition is here
+#define INT_CAN0                INT_CONCAT(INT_CAN0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(86): warning: 'INT_CAN1' macro redefined [-Wmacro-redefined]
+#define INT_CAN1                56          // CAN1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(362): note: previous definition is here
+#define INT_CAN1                INT_CONCAT(INT_CAN1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(87): warning: 'INT_HIBERNATE' macro redefined [-Wmacro-redefined]
+#define INT_HIBERNATE           59          // Hibernation Module
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(402): note: previous definition is here
+#define INT_HIBERNATE           INT_CONCAT(INT_HIBERNATE_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(88): warning: 'INT_USB0' macro redefined [-Wmacro-redefined]
+#define INT_USB0                60          // USB
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(461): note: previous definition is here
+#define INT_USB0                INT_CONCAT(INT_USB0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(89): warning: 'INT_PWM0_3' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_3              61          // PWM Generator 3
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(418): note: previous definition is here
+#define INT_PWM0_3              INT_CONCAT(INT_PWM0_3_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(90): warning: 'INT_UDMA' macro redefined [-Wmacro-redefined]
+#define INT_UDMA                62          // uDMA Software
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(459): note: previous definition is here
+#define INT_UDMA                INT_CONCAT(INT_UDMA_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(91): warning: 'INT_UDMAERR' macro redefined [-Wmacro-redefined]
+#define INT_UDMAERR             63          // uDMA Error
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(460): note: previous definition is here
+#define INT_UDMAERR             INT_CONCAT(INT_UDMAERR_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(92): warning: 'INT_ADC1SS0' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS0             64          // ADC1 Sequence 0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(356): note: previous definition is here
+#define INT_ADC1SS0             INT_CONCAT(INT_ADC1SS0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(93): warning: 'INT_ADC1SS1' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS1             65          // ADC1 Sequence 1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(357): note: previous definition is here
+#define INT_ADC1SS1             INT_CONCAT(INT_ADC1SS1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(94): warning: 'INT_ADC1SS2' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS2             66          // ADC1 Sequence 2
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(358): note: previous definition is here
+#define INT_ADC1SS2             INT_CONCAT(INT_ADC1SS2_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(95): warning: 'INT_ADC1SS3' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS3             67          // ADC1 Sequence 3
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(359): note: previous definition is here
+#define INT_ADC1SS3             INT_CONCAT(INT_ADC1SS3_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(96): warning: 'INT_SSI2' macro redefined [-Wmacro-redefined]
+#define INT_SSI2                73          // SSI2
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(430): note: previous definition is here
+#define INT_SSI2                INT_CONCAT(INT_SSI2_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(97): warning: 'INT_SSI3' macro redefined [-Wmacro-redefined]
+#define INT_SSI3                74          // SSI3
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(431): note: previous definition is here
+#define INT_SSI3                INT_CONCAT(INT_SSI3_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(98): warning: 'INT_UART3' macro redefined [-Wmacro-redefined]
+#define INT_UART3               75          // UART3
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(454): note: previous definition is here
+#define INT_UART3               INT_CONCAT(INT_UART3_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(99): warning: 'INT_UART4' macro redefined [-Wmacro-redefined]
+#define INT_UART4               76          // UART4
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(455): note: previous definition is here
+#define INT_UART4               INT_CONCAT(INT_UART4_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(100): warning: 'INT_UART5' macro redefined [-Wmacro-redefined]
+#define INT_UART5               77          // UART5
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(456): note: previous definition is here
+#define INT_UART5               INT_CONCAT(INT_UART5_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(101): warning: 'INT_UART6' macro redefined [-Wmacro-redefined]
+#define INT_UART6               78          // UART6
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(457): note: previous definition is here
+#define INT_UART6               INT_CONCAT(INT_UART6_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(102): warning: 'INT_UART7' macro redefined [-Wmacro-redefined]
+#define INT_UART7               79          // UART7
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(458): note: previous definition is here
+#define INT_UART7               INT_CONCAT(INT_UART7_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(103): warning: 'INT_I2C2' macro redefined [-Wmacro-redefined]
+#define INT_I2C2                84          // I2C2
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(405): note: previous definition is here
+#define INT_I2C2                INT_CONCAT(INT_I2C2_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(104): warning: 'INT_I2C3' macro redefined [-Wmacro-redefined]
+#define INT_I2C3                85          // I2C3
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(406): note: previous definition is here
+#define INT_I2C3                INT_CONCAT(INT_I2C3_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(105): warning: 'INT_TIMER4A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER4A             86          // 16/32-Bit Timer 4A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(443): note: previous definition is here
+#define INT_TIMER4A             INT_CONCAT(INT_TIMER4A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(106): warning: 'INT_TIMER4B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER4B             87          // 16/32-Bit Timer 4B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(444): note: previous definition is here
+#define INT_TIMER4B             INT_CONCAT(INT_TIMER4B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(107): warning: 'INT_TIMER5A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER5A             108         // 16/32-Bit Timer 5A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(445): note: previous definition is here
+#define INT_TIMER5A             INT_CONCAT(INT_TIMER5A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(108): warning: 'INT_TIMER5B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER5B             109         // 16/32-Bit Timer 5B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(446): note: previous definition is here
+#define INT_TIMER5B             INT_CONCAT(INT_TIMER5B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(109): warning: 'INT_WTIMER0A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER0A            110         // 32/64-Bit Timer 0A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(463): note: previous definition is here
+#define INT_WTIMER0A            INT_CONCAT(INT_WTIMER0A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(110): warning: 'INT_WTIMER0B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER0B            111         // 32/64-Bit Timer 0B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(464): note: previous definition is here
+#define INT_WTIMER0B            INT_CONCAT(INT_WTIMER0B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(111): warning: 'INT_WTIMER1A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER1A            112         // 32/64-Bit Timer 1A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(465): note: previous definition is here
+#define INT_WTIMER1A            INT_CONCAT(INT_WTIMER1A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(112): warning: 'INT_WTIMER1B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER1B            113         // 32/64-Bit Timer 1B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(466): note: previous definition is here
+#define INT_WTIMER1B            INT_CONCAT(INT_WTIMER1B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(113): warning: 'INT_WTIMER2A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER2A            114         // 32/64-Bit Timer 2A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(467): note: previous definition is here
+#define INT_WTIMER2A            INT_CONCAT(INT_WTIMER2A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(114): warning: 'INT_WTIMER2B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER2B            115         // 32/64-Bit Timer 2B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(468): note: previous definition is here
+#define INT_WTIMER2B            INT_CONCAT(INT_WTIMER2B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(115): warning: 'INT_WTIMER3A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER3A            116         // 32/64-Bit Timer 3A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(469): note: previous definition is here
+#define INT_WTIMER3A            INT_CONCAT(INT_WTIMER3A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(116): warning: 'INT_WTIMER3B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER3B            117         // 32/64-Bit Timer 3B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(470): note: previous definition is here
+#define INT_WTIMER3B            INT_CONCAT(INT_WTIMER3B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(117): warning: 'INT_WTIMER4A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER4A            118         // 32/64-Bit Timer 4A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(471): note: previous definition is here
+#define INT_WTIMER4A            INT_CONCAT(INT_WTIMER4A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(118): warning: 'INT_WTIMER4B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER4B            119         // 32/64-Bit Timer 4B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(472): note: previous definition is here
+#define INT_WTIMER4B            INT_CONCAT(INT_WTIMER4B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(119): warning: 'INT_WTIMER5A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER5A            120         // 32/64-Bit Timer 5A
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(473): note: previous definition is here
+#define INT_WTIMER5A            INT_CONCAT(INT_WTIMER5A_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(120): warning: 'INT_WTIMER5B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER5B            121         // 32/64-Bit Timer 5B
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(474): note: previous definition is here
+#define INT_WTIMER5B            INT_CONCAT(INT_WTIMER5B_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(121): warning: 'INT_SYSEXC' macro redefined [-Wmacro-redefined]
+#define INT_SYSEXC              122         // System Exception (imprecise)
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(433): note: previous definition is here
+#define INT_SYSEXC              INT_CONCAT(INT_SYSEXC_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(122): warning: 'INT_PWM1_0' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_0              150         // PWM1 Generator 0
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(420): note: previous definition is here
+#define INT_PWM1_0              INT_CONCAT(INT_PWM1_0_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(123): warning: 'INT_PWM1_1' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_1              151         // PWM1 Generator 1
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(421): note: previous definition is here
+#define INT_PWM1_1              INT_CONCAT(INT_PWM1_1_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(124): warning: 'INT_PWM1_2' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_2              152         // PWM1 Generator 2
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(422): note: previous definition is here
+#define INT_PWM1_2              INT_CONCAT(INT_PWM1_2_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(125): warning: 'INT_PWM1_3' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_3              153         // PWM1 Generator 3
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(423): note: previous definition is here
+#define INT_PWM1_3              INT_CONCAT(INT_PWM1_3_, INT_DEVICE_CLASS)
+        ^
+main.c(18): warning: In file included from...
+./tm4c123gh6pm.h(126): warning: 'INT_PWM1_FAULT' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_FAULT          154         // PWM1 Fault
+        ^
+../../../../../../Senior 1 Term1/CSE211 Intro To Embedded/Labs/TW\inc/hw_ints.h(424): note: previous definition is here
+#define INT_PWM1_FAULT          INT_CONCAT(INT_PWM1_FAULT_, INT_DEVICE_CLASS)
+        ^
+78 warnings generated.
+compiling main.c...
+compiling heap_4.c...
+compiling queue.c...
+compiling tasks.c...
+compiling port.c...
+linking...
+Program Size: Code=17520 RO-data=1048 RW-data=8 ZI-data=32520  
+".\Objects\Project.axf" - 0 Error(s), 156 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.5.1.pack
+                ARM.CMSIS-FreeRTOS.10.5.1
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: FreeRTOS Version: 10.5.1
+   * Component: Core Variant: Cortex-M Version: 10.5.1
+   * Component: Heap Variant: Heap_4 Version: 10.5.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/RTOS
+  ./RTE/_Target_1
+  D:/Keil/Pack/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include
+  D:/Keil/Pack/ARM/CMSIS-FreeRTOS/10.5.1/Source/include
+  D:/Keil/Pack/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F
+  D:/Keil/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Keil/Pack/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM.FreeRTOS::RTOS:Config:FreeRTOS:10.5.1
+      Include file:  Config/ARMCM/FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:10.5.1
+      Include file:  Source/include/FreeRTOS.h
+      Include file:  Source/include/queue.h
+      Source file:   Source/tasks.c
+      Source file:   Source/list.c
+      Include file:  Source/include/semphr.h
+      Source file:   Source/queue.c
+      Include file:  Source/include/task.h
+      Source file:   Source/portable/GCC/ARM_CM4F/port.c
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:10.5.1
+      Source file:   Source/portable/MemMang/heap_4.c
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device/Source/system_TM4C123.c
+      Source file:   Device/Source/ARM/startup_TM4C123.s
+      Include file:  Device/Include/TM4C123/TM4C123.h
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
